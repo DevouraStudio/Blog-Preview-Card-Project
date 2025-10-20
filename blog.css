@@ -68,3 +68,9 @@ h1.h1:hover {
 	color: hsl(47, 88%, 63%);
 	transition: color 1s ease;
 }
+
+@media (min-width: 375px) and (max-width: 1200px) {
+	body {
+		padding: 15rem 2rem;
+	}
+}
