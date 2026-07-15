@@ -1,0 +1,70 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-transform: capitalize;
+	background-color: hsl(47, 88%, 63%);
+	font-family: "Figtree", sans-serif;
+	padding: 15rem 30rem;
+}
+
+div.card {
+	border-radius: 4%;
+	border: 0.1rem solid black;
+	box-shadow: 8px 8px 0 black;
+}
+
+#First {
+	margin: 1.25rem 1.25rem 0;
+	border-radius: 3%;
+}
+
+p.lead {
+	font-size: 16px;
+	font-weight: 400;
+	color: hsl(0, 0%, 42%);
+}
+
+h1.h1 {
+	font-weight: 700;
+	font-size: 1.5rem;
+	margin-top: 1rem;
+	color: black;
+}
+
+h2.h2 {
+	font-size: 0.9rem;
+	margin-top: 1rem;
+	color: black;
+}
+
+span.badge {
+	margin-top: 0.5rem;
+	padding: 0.45rem 0.8rem;
+	font-weight: 700;
+	background-color: hsl(47, 88%, 63%);
+	color: black;
+	font-size: 0.8rem;
+}
+
+span.d-inline {
+	font-weight: 700;
+	margin-top: 1rem;
+}
+
+#Second {
+	width: 2rem;
+	height: auto;
+	margin-right: 0.5rem;
+}
+
+div.container {
+	padding: 0 0;
+	margin: 0 0;
+}
+
+h1.h1:hover {
+	color: hsl(47, 88%, 63%);
+	transition: color 1s ease;
+}
